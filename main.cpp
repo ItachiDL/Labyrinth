@@ -2,7 +2,7 @@
 #include "mazeSolver.hpp"
 
 int main() {
-    CreateMaze maze(15,15);
+    CreateMaze maze(20,20);
     MazeSolver mazeSolver("maze.txt");
     return 0;   
 }

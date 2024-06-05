@@ -36,7 +36,7 @@ private:
     int rows;
     int cols;
     vector<Point> path_points;
-    char wall = ' ';
+    char wall = 'W';
     char path = 'X';
     char start_char = 'S';
     char end_char = 'E';

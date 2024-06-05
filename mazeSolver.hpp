@@ -21,11 +21,14 @@ public:
     void printMaze();
     void readMaze(const string &filename);
     vector<Point> dfs();
+    void remove_whitespace();
+    void searchedPath();
 
 private:	
     // Private methods
     void searchSandE();
     vector<Point> get_neighbors(Point position);
+    
 
 
     // Private members
@@ -33,7 +36,7 @@ private:
     int rows;
     int cols;
     vector<Point> solution_points;
-    char wall = ' ';
+    char wall = 'W';
     char path = 'X';
     char start_char = 'S';
     char end_char = 'E';

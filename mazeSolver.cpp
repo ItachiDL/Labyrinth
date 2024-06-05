@@ -38,7 +38,8 @@ void MazeSolver::readMaze(const string &filename) {
     while (getline(file, line)) {
         vector<char> row;
         for (char c : line) {
-            row.push_back(c);
+            if (c != ' ')
+                row.push_back(c);
         }
         maze.push_back(row);
     }
@@ -47,10 +48,20 @@ void MazeSolver::readMaze(const string &filename) {
     cols = maze[0].size();
 }
 
+void MazeSolver::remove_whitespace() {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            if (maze[i][j] == ' ') {
+                maze[i].erase(maze[i].begin() + j);
+            }
+        }
+    }
+}
+
 void MazeSolver::printMaze() {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
-            cout << maze[i][j];
+            cout << maze[i][j] << " ";
         }
         cout << endl;
     }
@@ -134,9 +145,23 @@ vector<Point> MazeSolver::dfs() {
 
 }
 
+void MazeSolver::searchedPath() {
+    vector<Point> path = dfs();
+    if (path.empty()) {
+        cout << "No path found" << endl;
+    } else {
+        for (Point p : path) {
+            maze[p.getX()][p.getY()] = solutin_char;
+        }
+        maze[start.getX()][start.getY()] = start_char;
+        maze[end.getX()][end.getY()] = end_char;
+        printMaze();
+    }
+}
+
 void MazeSolver::run() {
     searchSandE();
     cout << "Start point: (" << start.getX() << ", " << start.getY() << ")" << endl;
     cout << "End point: (" << end.getX() << ", " << end.getY() << ")" << endl;
-    auto path = dfs();
+    searchedPath();
 }
