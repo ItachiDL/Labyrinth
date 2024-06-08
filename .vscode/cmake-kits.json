@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Qt-6.7.1-gcc_64",
+    "environmentVariables": {
+      "VSCODE_QT_FOLDER": "/home/martin/Qt/6.7.1/gcc_64",
+      "PATH": "/home/martin/Qt/6.7.1/gcc_64:/home/martin/Qt/6.7.1/gcc_64/bin:${env:PATH}"
+    },
+    "isTrusted": true,
+    "preferredGenerator": {
+      "name": "Ninja Multi-Config"
+    },
+    "toolchainFile": "/home/martin/Qt/6.7.1/gcc_64/lib/cmake/Qt6/qt.toolchain.cmake"
+  }
+]
