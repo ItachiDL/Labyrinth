@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/maze_gui/">
+    <file alias="Main.qml">E:/Projekte/Labyrinth/maze_gui/Main.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,29 +1,14 @@
-cmake_minimum_required(VERSION 3.12)
-project(MyProject)
+cmake_minimum_required(VERSION 3.25)
 
-# Add your source files here
-set(SOURCES
-    src/main.cpp
-    src/foo.cpp
-    src/bar.cpp
-)
+project(Labyrinth 
+    VERSION 0.5.0
+    DESCRIPTION "A simple maze generator and solver"
+    LANGUAGES CXX)
 
-# Add any additional include directories here
-include_directories(include)
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Add any additional library directories here
-link_directories(lib)
+set(SOURCE src/main.cpp src/point.cpp src/create_maze.cpp src/mazeSolver.cpp)
+set(NAME_EXE maze)
 
-# Add any additional libraries here
-set(LIBRARIES
-    my_library
-)
-
-# Set the output directory for the built executable
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Add your executable target here
-add_executable(MyExecutable ${SOURCES})
-
-# Link any libraries to the executable
-target_link_libraries(MyExecutable ${LIBRARIES})
+add_executable(${NAME_EXE} ${SOURCE})

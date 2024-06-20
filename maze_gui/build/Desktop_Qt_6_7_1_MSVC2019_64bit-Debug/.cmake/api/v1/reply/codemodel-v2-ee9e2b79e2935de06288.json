@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-48ccc1a2b657cbe26a4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "maze_gui",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-ca5bd89704f49d25e5ed.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-e583ffa09014a1cdc910.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-3206465929607fbee0c3.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-cc6e16f732c636e1fe7f.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmaze_gui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmaze_gui-Debug-87a846c9ed74b5f728bf.json",
+					"name" : "appmaze_gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmaze_gui_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmaze_gui_autogen-Debug-a45389c6eabc44ccd09c.json",
+					"name" : "appmaze_gui_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmaze_gui_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmaze_gui_autogen_timestamp_deps-Debug-f856da8b6fa241cc3d88.json",
+					"name" : "appmaze_gui_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmaze_gui_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmaze_gui_qmlimportscan-Debug-631e36f4294d1c7e141b.json",
+					"name" : "appmaze_gui_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmaze_gui_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmaze_gui_qmllint-Debug-0771062f8a5f24108d20.json",
+					"name" : "appmaze_gui_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmaze_gui_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmaze_gui_qmllint_json-Debug-7629340f6d6368596643.json",
+					"name" : "appmaze_gui_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmaze_gui_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmaze_gui_qmllint_module-Debug-82fb8b58ddea3bce56d6.json",
+					"name" : "appmaze_gui_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmaze_gui_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmaze_gui_qmltyperegistration-Debug-eeaf8657470e60bddc25.json",
+					"name" : "appmaze_gui_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmaze_gui_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmaze_gui_tooling-Debug-e982b9ebdff7e1bc4ac2.json",
+					"name" : "appmaze_gui_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Projekte/Labyrinth/maze_gui/build/Desktop_Qt_6_7_1_MSVC2019_64bit-Debug",
+		"source" : "E:/Projekte/Labyrinth/maze_gui"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
