@@ -17,6 +17,10 @@ qt_add_qml_module(appmaze_gui
     VERSION 1.0
     QML_FILES
         Main.qml
+        SOURCES backend.h backend.cpp
+        SOURCES createmaze.h createmaze.cpp
+        SOURCES mazesolver.h mazesolver.cpp
+        SOURCES point.h point.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

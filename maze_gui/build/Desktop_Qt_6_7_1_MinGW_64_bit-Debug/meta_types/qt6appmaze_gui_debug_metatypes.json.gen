@@ -1,0 +1,82 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Backend",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "mazeColumns",
+                        "notify": "mazeDataChanged",
+                        "read": "mazeColumns",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "mazeRows",
+                        "notify": "mazeDataChanged",
+                        "read": "mazeRows",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "mazeData",
+                        "notify": "mazeDataChanged",
+                        "read": "mazeData",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QStringList",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "Backend",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "mazeDataChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "generateMaze",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "findWay",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "backend.h",
+        "outputRevision": 68
+    }
+]

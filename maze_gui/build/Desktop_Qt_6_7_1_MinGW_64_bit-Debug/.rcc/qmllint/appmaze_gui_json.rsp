@@ -1,0 +1,12 @@
+--bare
+-I
+E:/Projekte/Labyrinth/maze_gui/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug
+-I
+C:/Qt/6.7.1/mingw_64/./qml
+--resource
+E:/Projekte/Labyrinth/maze_gui/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/.qt/rcc/qmake_maze_gui.qrc
+--resource
+E:/Projekte/Labyrinth/maze_gui/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/.qt/rcc/appmaze_gui_raw_qml_0.qrc
+E:/Projekte/Labyrinth/maze_gui/Main.qml
+--json
+E:/Projekte/Labyrinth/maze_gui/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/appmaze_gui_qmllint.json

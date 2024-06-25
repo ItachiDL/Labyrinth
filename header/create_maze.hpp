@@ -2,7 +2,6 @@
 #define CREATE_MAZE_HPP
 
 #include "point.hpp"
-#include <iostream>
 #include <vector>
 #include <string>
 

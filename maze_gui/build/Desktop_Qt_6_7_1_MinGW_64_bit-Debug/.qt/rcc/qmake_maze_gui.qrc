@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/maze_gui">
+    <file alias="qmldir">E:/Projekte/Labyrinth/maze_gui/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/maze_gui/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -2,6 +2,7 @@
 #include <random>
 #include <ctime>
 #include <fstream>
+#include <iostream>
 
 using namespace std;
 
