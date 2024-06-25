@@ -5,8 +5,8 @@ import QtQuick.Window 2.15
 
 ApplicationWindow {
     visible: true
-    width: 800
-    height: 600
+    width: 1080
+    height: 720
     title: qsTr("Maze Generator")
 
     Column {

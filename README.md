@@ -53,4 +53,12 @@ Search for a 20x20 maze all chars have the same meaning 'O'means found path
 ## Issues 
 - It can hapens that no maze is created because of a stackoverflow 
 - The finding of a solution is slow a other container might help. 
-- Better visibility would be a highly plus 
+
+## GUI 
+A GUI is added with Qt. The maze is shown in a grid. The user can create a maze and solve it.
+
+This image show a generate maze by clicking on the button 'Generate Maze':
+![Maze](img/Generate_Maze.png)
+
+This image show a solved maze by clicking on the button 'Solve Maze':
+![Maze](img/find_way.png)
